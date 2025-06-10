@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>618</width>
+    <height>474</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TROPIK - система бронирования</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 28pt &quot;Rubik&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Admin panel</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>601</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAsNeeded</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustToContents</enum>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::DashLine</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <column>
+    <property name="text">
+     <string>id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>user_id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>cabinet_id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>res_id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>status</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #ebbdb9;
+color: black;
+font-size: 20px;
+font-family: Rubik;
+border-radius: 1px;
+border: 2px solid #3f3f3f</string>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="" native="true">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>120</y>
+     <width>207</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">background-color: #ebbdb9;
+color: black;
+font-size: 20px;
+font-family: Rubik;
+border-radius: 1px;
+border: 2px solid #3f3f3f</string>
+      </property>
+      <property name="text">
+       <string>Отклонить</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">background-color: #b06e68;
+color: white;
+font-size: 18px;
+font-family: Rubik;
+border-radius: 1px;
+border: 2px solid #3f3f3f</string>
+      </property>
+      <property name="text">
+       <string>Одобрить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
